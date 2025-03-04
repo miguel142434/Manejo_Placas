@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1b2735, #090a0f);
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #8ab6f9;
+}
+
+form {
+    width: 60%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #4c79ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #1a4cd8;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #8ab6f9;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

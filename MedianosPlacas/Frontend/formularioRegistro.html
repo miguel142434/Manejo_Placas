@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./medianosEIA.png" />
+    <title>Nuevo Registro</title>
+    <link rel="stylesheet" href="./styles/styleformulario.css">
+</head>
+<body>
+
+    <h2>Registrar Vehículo</h2>
+    <form id="registroForm">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" readonly>
+
+        <label for="placa">Placa:</label>
+        <input type="text" id="placa" name="placa" required>
+
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" required>
+
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo" required>
+
+        <label for="color">Color:</label>
+        <input type="text" id="color" name="color" required>
+
+        <label for="fecha_ingreso">Fecha de Ingreso:</label>
+        <input type="date" id="fecha_ingreso" name="fecha_ingreso" required>
+
+        <button type="button" id="guardarBtn">Registrar</button>
+    </form>
+
+    <a href="index.html">Volver</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
